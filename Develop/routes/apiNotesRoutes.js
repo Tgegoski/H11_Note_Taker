@@ -1,6 +1,6 @@
 // Dependencies
 
-const notesData = require('../data/notesData');
+const notesData = require('../db/db.json');
 const uuid = require ('uuid');
 
 // ROUTING
