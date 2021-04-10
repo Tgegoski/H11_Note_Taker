@@ -1,6 +1,7 @@
 // DEPENDENCIES
 
 const path = require('path');
+const notesData = require('../db/db.json');
 
 // ROUTING
 

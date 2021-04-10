@@ -1,0 +1,17 @@
+{
+  "name": "H11_Note_Taker",
+  "version": "1.0.0",
+  "description": "The purpose of this application is to provide a Note Taker that can be used to write and save notes. This application uses Express.js and can save and retrieve note data from a JSON file.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
