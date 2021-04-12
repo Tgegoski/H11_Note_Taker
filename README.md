@@ -15,18 +15,15 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ## Instructions
 
 ```
-WHEN I Open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+Open the Note Taker. You will see a page with a link to a notes page. 
+You can then click on the link to the notes page. 
+You will see existing notes listed on the left and a place to enter new notes in on the right.
+If you would like to enter a new note simply choose a title and add the notes text in the right-hand column.
+A save icon will appear at the top of the page that you can click on to save your note.
+The saved note will then appear in the left-hand column with any other existing notes. 
+To view a note click on an existing note in the list in the left-hand column.
+The note will then appear in the column on the right.
+To add a new note click on the write icon at the top of the page.
 ```
 
 
@@ -46,7 +43,7 @@ This application allows small business owners to write notes to keep track of th
 
   * Application front end connects to an Express.js back end.
 
-  * Application back end stores notes with unique IDs in a JSON file.
+  * Application back end stores notes with unique IDs in a JSON file utilizing ShortID.
 
   * Application is deployed to Heroku.
 
